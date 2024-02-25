@@ -1,0 +1,83 @@
+header{
+    text-align: center;
+    background-image: url(images/elephant.jpg);
+    background-position:25 5 ;
+    background-size: cover;
+    padding: 20px;
+    height: 180px;
+    /* margin-bottom: 35px; */
+}
+
+.Koteret{
+    color:greenyellow;
+    text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5, 10px -15px 6px rgba(65,206,27,0.37);
+    
+}
+
+
+
+nav{
+    text-align: center;
+    background-color: aqua;
+    padding: 35px;
+}
+nav ul li{
+    display: inline;
+    padding: 30px;
+    margin-top: 10px;
+    background-color: greenyellow;
+    margin-right: 20px;
+    border: 50px;
+    border-radius: 10px;
+} 
+
+body{
+    background: linear-gradient(to bottom,  #f8ffe8 0%,#e3f5ab 33%,#b7df2d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+
+.card{
+    width: 30%;
+    padding: 10px;
+    float: left;
+    margin:2px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 2px gray;
+    text-align: center;
+}
+
+.card img{
+    height: 200px;
+    width: 300px;
+    margin: auto;
+}
+
+.card button{
+    background-color: rgb(26, 127, 26);
+    padding: 15px;
+    margin: 20px ;
+    border-radius: 15px 0px;
+    box-shadow: 5px 5px #b7df2d;
+}
+
+.card button:hover{
+    background-color: rgb(26, 127, 26);
+    padding: 18px;
+    margin: 17px ;
+    border-radius: 15px 0px;
+    box-shadow: 5px 5px #5e16c4;
+}
+
+
+div h1{
+    text-align: center;
+    color: brown;
+}
+
+article{
+    text-align: center;
+    text-size-adjust: x;
+    padding: 50px;
+    padding-right:10% ;
+    padding-left:10% ;
+}
